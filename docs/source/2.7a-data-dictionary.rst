@@ -1,0 +1,60 @@
+.. _2.7a:
+
+2.7a Data dictionary
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition**
+
+A link to the data dictionary. A link in the form of a persistent identifier (such as a DOI) is strongly recommended. If a DOI is not available, a standard URL is acceptable.
+
+ANZCTR Step 11 must be provided.
+
+Optionally, richer metadata can be provided to DataCite to enable linking between multiple research outputs.
+
+*Metadata fields:*
+
+ANZCTR Step 11 - What supporting documents are/will be available?
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text from list
+
+**Example input:** Other - Data dictionary
+
+**Controlled vocabulary source:**
+
+From ANZCTR data field explanation:
+* No other documents available
+* Study protocol
+* Statistical analysis plan
+* Informed consent form
+* Clinical study report
+* Ethical approval
+* Analytic code
+* Other (please specify)
+
+**Notes:**
+
+.. _step11:
+
+ANZCTR Step 11 - How or where can supporting documents be obtained?
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** https://doi.org/10.1080/15588742.2015.1017687
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+This field can contain any text, but using DOI links to the supporting documents is recommended.
