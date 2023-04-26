@@ -1,0 +1,202 @@
+.. _2.8:
+
+2.8 Other research outputs and related publications
+==============================
+
+======== ==========
+Required Repeatable
+======== ==========
+No       Yes
+======== ==========
+
+**Definition**
+
+A link in the form of a persistent identifier (such as a DOI) is strongly recommended. If a DOI is not available, a standard URL is acceptable.
+
+For biospecimens, please select RelatedItemType as PhysicalObject.
+
+* Data quality statement
+* Analytic code
+* CONSORT statement
+* Clinical practice guidelines/recommendations emerging from the trial
+* Data management plan
+* Unpublished reports 
+* Statistical analysis plan
+* Publications, preprints, journal articles and abstracts
+* Related datasets
+* Case Report Forms/ Data Collection Forms
+* Biospecimens
+
+If requested, we can provide an example per research output and related publication type.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <subjects>
+    <subject xml:lang="en" subjectScheme="MeSH" schemeURI="http://id.nlm.nih.gov/mesh/" valueURI="https://id.nlm.nih.gov/mesh/D001794" classificationCode="D001794">Blood pressure</subject>
+  </subject>
+
+.. _step11:
+
+ANZCTR Step 11 - What supporting documents are/will be available?
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text from list
+
+**Example input:** Study protocol
+
+**Controlled vocabulary source:**
+
+From ANZCTR data field explanation:
+* No other documents available
+* Study protocol
+* Statistical analysis plan
+* Informed consent form
+* Clinical study report
+* Ethical approval
+* Analytic code
+* Other (please specify)
+
+**Notes:**
+
+.. _step11:
+
+ANZCTR Step 11 - How or where can supporting documents be obtained?
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** https://doi.org/10.1080/15588742.2015.1017687
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+This field can contain any text, but using DOI links to the supporting documents is recommended.
+
+Consider using ANZCTR Step 12 - Summary results for publications, preprints, journal articles, and abstracts, unpublished reports and clinical practice guidelines
+
+.. _20:
+
+DataCite 20 RelatedItem
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Text
+
+**Example input:**
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+.. _20.b:
+
+DataCite 20.b relationType 
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** https://id.nlm.nih.gov/mesh/D001794
+
+**Controlled vocabulary source:**
+
+From the DataCite metadata schema
+
+* IsCitedBy Cites
+* IsSupplementTo
+* IsSupplementedBy
+* IsContinuedBy
+* Continues
+* IsDescribedBy
+* Describes
+* HasMetadata
+* IsMetadataFor
+* HasVersion
+* IsVersionOf
+* IsNewVersionOf
+* IsPreviousVersionO
+* IsPartOf
+* HasPart
+* IsPublishedIn
+* IsReferencedBy
+* References
+* IsDocumentedBy
+* Documents
+* IsCompiledBy
+* Compiles
+* IsVariantFormOf
+* IsOriginalFormOf 
+* IsIdenticalTo
+* IsReviewedBy
+* Reviews
+* IsDerivedFrom
+* IsSourceOf
+* IsRequiredBy
+* Requires
+* IsObsoletedBy
+* Obsoletes
+
+**Notes:** Use "IsDerivedFrom" for biospecimens
+
+.. _20.1:
+
+DataCite 20.1 relatedItemIdentifier
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** https://doi.org/10.1080/15588742.2015.1017687
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** If relatedItemIdentifier is provided, an identical 12. RelatedIdentifier is strongly recommended for indexing.
+
+.. _20.1.a:
+
+DataCite 20.1.a relatedItemIdentifierType
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** https://doi.org/10.1080/15588742.2015.1017687
+
+**Example input:** D001794
+
+**Controlled vocabulary source:** From the DataCite metadata schema
+
+* ARK 
+* arXiv 
+* Bibcode
+* DOI
+* EAN13
+* EISSN
+* Handle
+* IGSN
+* ISBN
+* ISSN
+* ISTC
+* LISSN
+* LSID
+* PMID
+* PURL
+* UPC
+* URL
+* URN
+* w3id
+
+**Notes:** If relatedItemIdentifier is provided, an identical 12. RelatedIdentifier is strongly recommended for indexing.
