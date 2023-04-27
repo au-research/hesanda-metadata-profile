@@ -1,6 +1,6 @@
 .. _2.8:
 
-2.8 Other research outputs and related publications
+2.8 Other research outputs and related publications (NYI)
 ==============================
 
 ======== ==========
@@ -173,7 +173,7 @@ DataCite 20.1.a relatedItemIdentifierType
 
 **Occurrences:** 0-1
 
-**Input type:** https://doi.org/10.1080/15588742.2015.1017687
+**Input type:** Text
 
 **Example input:** D001794
 
@@ -200,3 +200,426 @@ DataCite 20.1.a relatedItemIdentifierType
 * w3id
 
 **Notes:** If relatedItemIdentifier is provided, an identical 12. RelatedIdentifier is strongly recommended for indexing.
+
+.. _20.1.b:
+
+DataCite 20.1.b relatedMetadataScheme
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 
+
+**Controlled vocabulary source:**
+
+**Notes:** Use only with this relation pair: (HasMetadata/IsMetadataFor)
+
+.. _20.1.c:
+
+DataCite 20.1.c schemeURI
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 
+
+**Controlled vocabulary source:**
+
+**Notes:** Use only with this relation pair: (HasMetadata/IsMetadataFor)
+
+.. _20.1.d:
+
+DataCite 20.1.d schemeType
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 
+
+* XSD
+* DDT
+* Turtle
+
+**Controlled vocabulary source:**
+
+**Notes:** Use only with this relation pair: (HasMetadata/IsMetadataFor)
+
+.. _20.2.1:
+
+DataCite 20.2.1 creatorName
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** Jane Smith
+
+**Controlled vocabulary source:**
+
+**Notes:** See the Creator section for more information about describing creators.
+
+.. _20.2.1.a:
+
+DataCite 20.2.1.a nameType
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:** Personal
+
+**Controlled vocabulary source:**
+
+* Organizational
+* Personal (default)
+
+**Notes:** See the Creator section for more information about describing creators.
+
+.. _20.2.2:
+
+DataCite 20.2.2 givenName
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** Jane
+
+**Controlled vocabulary source:**
+
+**Notes:** See the Creator section for more information about describing creators.
+
+.. _20.2.3:
+
+DataCite 20.2.3 familyName
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** Smith
+
+**Controlled vocabulary source:**
+
+**Notes:** See the Creator section for more information about describing creators.
+
+.. _20.3:
+
+DataCite 20.3 Title
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1-n
+
+**Input type:** Text
+
+**Example input:** Journal of the American Chemical Society
+
+
+**Controlled vocabulary source:**
+
+**Notes:**
+
+.. _20.3.a:
+
+DataCite 20.3.a titleType 
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:** TranslatedTitle
+
+**Controlled vocabulary source:**
+
+* AlternativeTitle
+* Subtitle
+* TranslatedTitle
+* Other
+
+**Notes:** The primary title should not have a title type
+
+.. _20.4:
+
+DataCite 20.4 PublicationYear
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Year
+
+**Example input:** 2020
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** 
+
+.. _20.5:
+
+DataCite 20.5 volume
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 8
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn
+
+.. _20.6:
+
+DataCite 20.6 issue
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 3
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn
+
+.. _20.7:
+
+DataCite 20.7 number 
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 12
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn
+
+.. _20.7a:
+
+DataCite 20.7a numberType 
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:** Report
+
+**Controlled vocabulary source:** 
+
+From the DataCite metadata schema
+
+* Article
+* Chapter
+* Report
+* Other
+
+**Notes:** Use only with relationType IsPublishedIn
+
+.. _20.8:
+
+DataCite 20.8 firstPage
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Number
+
+**Example input:** 3
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn.
+
+First page of the resource within the related item e.g. chapter, article or conference paper
+
+.. _20.9:
+
+DataCite 20.9 firstPage
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Number
+
+**Example input:** 99
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn.
+
+Last page of the resource within the related item e.g. chapter, article or conference paper
+
+.. _20.10:
+
+DataCite 20.10 Publisher
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** Holt University
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn.
+
+.. _20.11:
+
+DataCite 20.11 edition
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:** 1st edition
+
+**Controlled vocabulary source:** Nil
+
+**Notes:** Use only with relationType IsPublishedIn.
+
+.. _20.12:
+
+DataCite 20.12 Contributor
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:**
+
+* Jane Smith
+* Foo Data Centre
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+.. _20.12.a:
+
+DataCite 20.12.a contributorType
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:**
+
+* Jane Smith
+* Foo Data Centre
+
+**Controlled vocabulary source:** From the DataCite metadata schema
+
+* ContactPerson
+* DataCollector
+* DataCurator
+* DataManager
+* Distributor
+* Editor
+* HostingInstitution
+* Producer
+* ProjectLeader
+* ProjectManager
+* ProjectMember
+* RegistrationAgency
+* RegistrationAuthority
+* RelatedPerson
+* Researcher
+* ResearchGroup
+* RightsHolder
+* Sponsor
+* Supervisor
+* WorkPackageLeader
+* Other
+
+**Notes:**
+
+.. _20.12.1:
+
+DataCite 20.12.1 contributorName
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:**
+
+* Jane Smith
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+.. _20.12.1.a:
+
+DataCite 20.12.1.a nameType
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:**
+
+* Jane Smith
+
+**Controlled vocabulary source:** From the DataCite metadata schema
+
+* Organizational
+* Personal (default)
+
+**Notes:**
+
+.. _20.12.2:
+
+DataCite 20.12.2 givenName
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:**
+
+* Jane
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+.. _20.12.3:
+
+DataCite 20.12.3 familyName
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text
+
+**Example input:**
+
+* Smith
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
