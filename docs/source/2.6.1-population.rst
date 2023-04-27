@@ -1,0 +1,28 @@
+.. _2.6.1:
+
+2.6.1 Population
+================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition:** The health condition(s) or problem(s) that the activity/study aimed to assess.
+
+.. contents:: :local:
+
+.. _step2:
+
+ANZCTR Step 2 - Health condition(s) or problem(s) studied
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Controlled vocabulary source:** 
+E.g. 
+* Depression
+* Breast cancer
+* Medication error
+

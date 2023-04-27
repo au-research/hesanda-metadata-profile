@@ -1,0 +1,30 @@
+.. _2.6.3a:
+
+2.6.3a Control group
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+.. contents:: :local:
+
+.. _step3:
+
+ANZCTR Step 3 - Control group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** Nil
+
+**Input type:** Text from list
+
+**Example input:** Nil
+
+**Controlled vocabulary source:**
+* Placebo: an inactive or sham treatment that has no treatment value is given to the control group, such as sugar pill or saline solution.
+* Active: when the control treatment is active. This includes standard care, alternate forms of treatment, no treatment given, or if patients act as their own control (crossover study).
+* Uncontrolled: when there is no control group, as in single group trials. The same intervention is applied to all subjects in the study.
+* Historical: a group of people who received their care in the past, i.e. not at the same time as the people receiving the intervention. This selection is not applicable for randomised controlled trials. The source and time period that historical data was collected needs to be described in the ‘Comparator / control treatment’ field.
+* Dose comparison: the comparator group receives the same treatment as the intervention group, but in a different dose.

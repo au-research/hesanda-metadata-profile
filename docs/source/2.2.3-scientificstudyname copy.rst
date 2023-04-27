@@ -1,0 +1,29 @@
+.. _2.2.3:
+
+2.1 Scientific Study Name
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** The full scientific name of the activity/study.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. _anzctr_ID:
+
+ANZCTR Step 1 Scientific title
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** A double-blind, randomised, placebo-controlled trial to determine the effects of daily low-dose aspirin (100mg) versus placebo on the risk of fractures and fall-related hospital presentations in healthy older adults aged 70 years and over
+
+**Controlled vocabulary source:** Nil

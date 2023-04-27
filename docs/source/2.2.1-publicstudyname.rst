@@ -1,0 +1,28 @@
+.. _2.2.1:
+
+2.1 Public Study Name
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** Name of the activity/study, or the ‘public’ title.  If there is no such title the full scientific or protocol title needs to be used.
+
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. _anzctr_ID:
+
+ANZCTR Step 1 Public title
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** A randomised controlled trial of low-dose aspirin for the prevention of fractures in healthy older people: the ASPREE-Fracture sub-study.

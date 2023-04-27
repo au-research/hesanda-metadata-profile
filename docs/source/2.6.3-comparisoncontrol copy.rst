@@ -1,0 +1,28 @@
+.. _2.6.3:
+
+2.6.3 Comparison control
+========================
+
+================================= ==========
+Required
+(for interventional studies only) Repeatable
+================================= ==========
+Yes                               Yes
+================================= ==========
+
+.. contents:: :local:
+
+.. _step3:
+
+ANZCTR Step 3 - Comparator / control treatment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** Nil
+
+**Input type:** Text
+
+**Example input:** Participants in the control group will receive the standard care from a specialist gastroenterologist who has about 20 years of working experience as a medical practitioner and 10 years as a specialist in internal medicine and gastroenterology.
+
+The standard care includes reassurance and medication targeting the most troublesome symptoms (including fibre supplementation, anti-depressants, antispasmodics and anti-diarrhoeal medications for symptom control). The gastroenterologist will justify the frequency and duration of consultation according to individual participant’s needs as routine clinical visits; therefore, the participant’s irritable bowel symptoms will be monitored throughout the 8-week treatment period (at least two visits at Week 1 and Week 8).
+
+**Controlled vocabulary source:** Nil
