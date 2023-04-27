@@ -1,0 +1,190 @@
+.. _2.4:
+
+2.4 Funding sources
+===============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** Funding source(s) for the activity/study.
+
+ANZCTR Step 8 must be provided, as it is an outline of funding received.
+
+Optionally, more granular funding information can be provided to DataCite to enable linking between data and projects from the same funder(s).
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+  <fundingReferences>
+    <fundingReference>
+      <funderName>European Commission</funderName>
+      <funderIdentifier funderIdentifierType="Crossref Funder ID">https://doi.org/10.13039/501100000780</funderIdentifier>
+      <awardNumber awardURI="https://cordis.europa.eu/project/rcn/100180_en.html">282625</awardNumber>
+      <awardTitle>MOTivational strength of ecosystem services and alternative ways to express the value of BIOdiversity</awardTitle>
+      </fundingReference>
+    <fundingReference>
+      <funderName>European Commission</funderName>
+      <funderIdentifier funderIdentifierType="Crossref Funder ID">https://doi.org/10.13039/501100000780</funderIdentifier>
+      <awardNumber awardURI="https://cordis.europa.eu/project/rcn/100603_en.html">284382</awardNumber>
+      <awardTitle>Institutionalizing global genetic-resource commons. Global Strategies for accessing and using essential public knowledge assets in the life sciences</awardTitle>
+    </fundingReference>
+  </fundingReferences>
+
+.. _step8:
+
+ANZCTR Step 8 Funding & Sponsors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1-n
+
+**Input type:** Text
+
+**Example input:** 
+Eg. 
+Government body
+Name: NHMRC Investigator
+Grant #1174523
+Address: GPO Box 1421 CANBERRA ACT 2601
+Country: Australia
+Primary sponsor type: University
+Name: Sydney School of Public Health, The University of Sydney
+Address	Edward Ford Building A27
+The University of Sydney
+Camperdown NSW 2006 Australia
+Country: Australia
+Secondary sponsor category: None
+
+**Controlled vocabulary source:** Nil
+
+.. _19:
+
+DataCite 19 FundingReference
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Nil
+
+**Example input:** Nil
+
+**Controlled vocabulary source:** Nil
+
+.. _19.1:
+
+DataCite 19 funderName
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Nil
+
+**Example input:** Australian Research Council
+
+**Controlled vocabulary source:** Nil
+
+.. _19.2:
+
+DataCite 19.2 funderIdentifier 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Nil
+
+**Example input:** 501100000923
+
+**Controlled vocabulary source:** Nil
+
+.. _19.2.a:
+
+DataCite 19.2.a funderIdentifierType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Text from list
+
+**Example input:** Crossref Funder ID
+
+**Controlled vocabulary source:** From the DataCite metadata schema
+
+* Crossref Funder ID
+* GRID
+* ISNI
+* ROR
+* Other
+
+.. _19.2.b:
+
+DataCite 19.2.b SchemeURI
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Nil
+
+**Example input:** https://www.crossref.org/ser
+vices/funder-registry/
+
+**Controlled vocabulary source:** Examples:
+* https://www.crossref.org/services/funder-registry/
+* https://ror.org/
+
+**Notes:** Not available in Fabrica interface
+
+.. _19.3:
+
+DataCite 19.3 awardNumber
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Nil
+
+**Example input:** LP0220726
+
+**Controlled vocabulary source:** From the DataCite metadata schema
+
+* Crossref Funder ID
+* GRID
+* ISNI
+* ROR
+* Other
+
+ .. _19.3.a:
+
+DataCite 19.3.a awardURI
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Nil
+
+**Example input:** http://purl.org/au-research/grants/arc/LP0220726
+
+
+.. _19.4:
+
+DataCite 19.4 awardTitle
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Nil
+
+**Example input:** Development of novel omega-3 enriched poultry products
+
+
+
+
+
+
+

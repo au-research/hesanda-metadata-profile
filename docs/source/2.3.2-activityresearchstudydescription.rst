@@ -1,0 +1,33 @@
+.. _2.3.2:
+
+2.3.1 Activity/ Research study description
+===============================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** A description of the activity/study that produced the data asset. Easily read and understood information about the study; the purpose is to enable users to find, categorise and evaluate the fitness of a data asset to their needs based on the activities undertaken during the study. 
+
+This field supplements the attribute Dataset Description [3.2].
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. _step9:
+
+ANZCTR Step 9  Brief summary
+~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** This study aims to investigate the effect of a combined exercise training program, compared to a sham-placebo control group on skeletal muscle microvascular blood flow and exercise intolerance in adults living with atrial fibrillation. Secondary to this, the study aims to determine the effect of combined exercise training on quality of life, symptom severity and traditional cardiovascular risk factors.
+
+It is hypothesised that participants in the combined exercise training group will have an increase in skeletal muscle microvascular blood flow and exercise tolerance when compared to the sham-placebo control. Additionally, those randomised to the combined exercise training group will have an improvement in quality of life, lower symptom severity and improved cardiovascular risk factors.
+
+**Controlled vocabulary source:** Nil
