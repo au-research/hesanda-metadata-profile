@@ -1,17 +1,17 @@
-.. _1.6.2:
+.. _1.6.1:
 
-1.6.2 Resource Type
-===================
+1.6.1 Resource type general
+===========================
 
 ======== ==========
 Required Repeatable
 ======== ==========
-Yes      Yes
+Yes      No
 ======== ==========
 
-**Definition:** “Individual Participant Data (IPD)” 
+**Definition:** For IPD: always “Dataset”
 
-Note: The use of a controlled terminology will be considered.
+This field clarifies what kind of resource is being provided to HeSANDA, in its most general terms. 
 
 *Metadata fields:*
 
@@ -23,15 +23,13 @@ Note: The use of a controlled terminology will be considered.
 
  <resourceType resourceTypeGeneral="Dataset">Census Data</identifier>
 
-.. _10:
+.. _10.a:
 
-DataCite 10. ResourceType
+DataCite 10.a resourceTypeGeneral
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 
 **Input type:** Text from list
 
-**Example input:** MUST be “Individual Participant Data (IPD)”
-
-**Controlled vocabulary source** HeSANDA
+**Example input:** MUST be “Dataset”

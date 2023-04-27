@@ -1,12 +1,12 @@
-.. _2.2.3:
+.. _2.2.1:
 
-2.1 Scientific Study Name
+2.1 Scientific study name
 ====================
 
 ======== ==========
 Required Repeatable
 ======== ==========
-Yes      No
+No      No
 ======== ==========
 
 **Definition:** The full scientific name of the activity/study.
@@ -18,7 +18,7 @@ Yes      No
 .. _anzctr_ID:
 
 ANZCTR Step 1 Scientific title
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 

@@ -1,6 +1,6 @@
 .. _1.9:
 
-1.9 Alternate Identifier
+1.9 Alternate identifier
 ==========================
 
 ======== ==========

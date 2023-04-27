@@ -1,6 +1,6 @@
 .. _1.1:
 
-1.1. Primary Identifier
+1.1. Primary identifier
 ====================
 
 ======== ==========
@@ -19,7 +19,7 @@ Yes      No
 
 .. code:: xml
 
- <identifier identifierType="DOI">10.21384/foo</identifier>
+ <identifier identifierType="DOI">10.1080/15588742.2015.1017687</identifier>
 
 .. _1:
 

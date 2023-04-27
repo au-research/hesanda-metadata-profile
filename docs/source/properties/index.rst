@@ -13,14 +13,27 @@ in ANZCTR *and* a DataCite DOI needs to be minted.
    1.3-title
    1.4-publishers
    1.4.1-geolocation
-   1.5.1-datasetpublicationdate
-   1.5.2-collectiondate
-   1.6.1-resourcetypegeneral
-   1.6.2-resourcetype
+   1.5.1-dataset-publication-date
+   1.5.2-collection-date
+   1.6.1-resource-type-general
+   1.6.2-resource-type
    1.7-format
    1.8-version
-   1.9-alternateidentifier
-   1.10-hesandaversion
+   1.9-alternate-identifier
+   1.10-hesanda-version
+   2.1-study-identifier
+   2.2.1-public-study-name
+   2.2.2-scientific-study-name
+   2.2.3-acronym
+   2.3.1-research-area-discipline
+   2.3.2-activity-research-study-description
+   2.4-funding-sources
+   2.5-activity-research-study-type
+   2.6.1-population
+   2.6.2-intervention-exposure
+   2.6.3-comparison-control
+   2.6.3a-control-group
+   2.6.4-outcome-measures
    2.7-study-protocol
    2.7a-data-dictionary
    2.8-other-research-outputs-and-publications

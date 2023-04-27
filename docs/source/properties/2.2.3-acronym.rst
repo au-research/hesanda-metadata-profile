@@ -1,0 +1,29 @@
+.. _2.2.3:
+
+2.2.3 Acronym
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+No      No
+======== ==========
+
+**Definition:** A concise way of referring to the trial.
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. _anzctr_ID:
+
+ANZCTR Step 1 Trial acronym
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** ASPREE
+
+**Controlled vocabulary source:** Nil

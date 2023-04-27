@@ -26,15 +26,15 @@ Property. May be a corporate/institutional or personal name. May also include af
 
   <creators>
       <creator>
-          <creatorName nameType="Personal">Garcia, Sofia</creatorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
+          <creatorName nameType="Personal">Jane Doe</creatorName>
+          <givenName>Jane</givenName>
+          <familyName>Doe</familyName>
           <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
+          <affiliation affiliationIdentifier="https://ror.org/ab01cd23" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Holt University</affiliation>
       </creator>
       <creator>
-          <creatorName xml:lang="en" nameType="Organizational">California Digital Library</creatorName>
-          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+          <creatorName xml:lang="en" nameType="Organizational">Holt University</creatorName>
+          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/ab01cd23</nameIdentifier>
       </creator>
   </creators>
 
@@ -116,7 +116,6 @@ DataCite 2.3 familyName
 
 Examples based on the 2.1 names: Charpy; Jemison
 
-
 .. _2.4:
 
 DataCite 2.4 nameIdentifier
@@ -194,7 +193,7 @@ DataCite 2.5 affiliation
 
 Free text.
 
-The creator’s nameType may be *Organizational* or *Personal*. In the case of an organizational creator, e.g., a research group,
+The creator's nameType may be *Organizational* or *Personal*. In the case of an organizational creator, e.g., a research group,
 this will often be the name of the institution to which that organization belongs.
 
 Examples:

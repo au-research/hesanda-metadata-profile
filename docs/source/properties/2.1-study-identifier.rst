@@ -1,6 +1,6 @@
 .. _2.1:
 
-2.1 Study Identifier
+2.1 Study identifier
 ====================
 
 ======== ==========
