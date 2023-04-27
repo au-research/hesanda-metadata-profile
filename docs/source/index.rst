@@ -26,6 +26,8 @@ Contents
    1.8-version
    1.9-alternateidentifier
    1.10-hesandaversion
+   2.7-study-protocol
+   2.7a-data-dictionary
    3.1-keyword
    3.2-dataset-description
    3.3.1-sample-size
