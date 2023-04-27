@@ -1,6 +1,6 @@
 .. _2.3.2:
 
-2.3.1 Activity/ Research study description
+2.3.1 Activity/research study description
 ===============================
 
 ======== ==========
@@ -19,7 +19,7 @@ This field supplements the attribute Dataset Description [3.2].
 
 .. _step9:
 
-ANZCTR Step 9  Brief summary
+ANZCTR Step 9 Brief summary
 ~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1

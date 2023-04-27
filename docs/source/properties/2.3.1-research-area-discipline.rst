@@ -1,6 +1,6 @@
 .. _2.3.1:
 
-2.3.1 Research Area/Discipline
+2.3.1 Research area/discipline
 ===============================
 
 ======== ==========

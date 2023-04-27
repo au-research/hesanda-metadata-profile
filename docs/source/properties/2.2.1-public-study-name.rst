@@ -1,6 +1,6 @@
 .. _2.2.1:
 
-2.1 Public Study Name
+2.1 Public study name
 ====================
 
 ======== ==========

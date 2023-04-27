@@ -1,6 +1,6 @@
 .. _2.6.2:
 
-2.6.2 Population
+2.6.2 Intervention/exposure
 ================
 
 ======== ==========
