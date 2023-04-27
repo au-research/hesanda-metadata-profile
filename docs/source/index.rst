@@ -12,4 +12,5 @@ Contents
 
 .. toctree::
 
+   introduction/index
    properties/index
