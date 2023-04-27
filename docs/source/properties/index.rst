@@ -23,6 +23,7 @@ in ANZCTR *and* a DataCite DOI needs to be minted.
    1.10-hesandaversion
    2.7-study-protocol
    2.7a-data-dictionary
+   2.8-other-research-outputs-and-publications
    3.1-keyword
    3.2-dataset-description
    3.3.1-sample-size
