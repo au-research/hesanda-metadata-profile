@@ -1,0 +1,65 @@
+.. _2.6.2:
+
+2.6.2 Population
+================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      Yes
+======== ==========
+
+**Definition:** The specific intervention(s) that the activity/study aimed to assess. Please use ANZCTR conventions as per the following (NB. For observational studies, provide a brief description of the condition observed and/or the exposure. The duration of observation must also be described):
+
+========== ==============================================================
+Brief name Provide the name or a phrase that describes the intervention. 
+           If there are multiple intervention arms, please label with 
+           subheadings (e.g. Arm 1, Arm 2, etc.). 
+           Note: Intervention names should be consistent throughout the 
+           form. Avoid using alternative intervention names for clarity.
+========== ==============================================================
+For drug   Provide the International Nonproprietary Name (INN) of each 
+trials     drug (not brand/trade names). 
+           For an unregistered drug, the generic name, chemical name, or 
+           company serial number is acceptable.
+
+           For each intervention drug, please also specify:
+            - the dose administered, e.g. 5mg once daily;
+            - the duration of administration, e.g. 4 weeks;
+            - the mode of administration, e.g. oral tablet, intravenous 
+           infusion.
+
+           Drug intervention can be sourced from: RxNorm OR  AMT codes;
+           or proprietary codes e.g. MULTUM; or proxy codes like PBS; 
+           WHO ATC Anatomic Therapeutic Chemical.  Only one Defined Daily 
+           Dose (DDD)is assigned per ATC code and route of administration;
+           WHO Drug
+
+           Non-Drug intervention may be sourced from: SNOMED CT; 
+           ICPC2+ coded data; LOINC
+========== ==============================================================
+For        For each intervention, briefly describe:
+non-drug   - any physical or informational materials that will be used in 
+trials     the intervention, including those provided to participants or 
+           used in intervention delivery or in training of intervention
+           providers;
+           - each of the procedures, activities, and/or processes used,
+           including any enabling or support activities;
+           - who will deliver the intervention and if relevant, their 
+           expertise, e.g. dietician with minimum 5 years’ experience;  
+========   ==============================================================
+
+.. contents:: :local:
+
+.. _step3:
+
+ANZCTR Step 3 - Description of intervention(s) / exposure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** “Dexamethasone (10 mg) or placebo was administered 15 to 20 minutes before or with the first dose of antibiotic in Arm 1. Studies in animals have shown that bacterial lysis, induced by treatment with antibiotics, leads to inflammation in the subarachnoid space, which may contribute to an unfavourable outcome [references]. These studies also show that adjuvant treatment with anti-inflammatory agents, such as dexamethasone, reduces both cerebrospinal fluid inflammation and neurologic sequelae [references].”
+
+**Controlled vocabulary source:** Nil

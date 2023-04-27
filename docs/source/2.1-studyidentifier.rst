@@ -1,0 +1,88 @@
+.. _2.1:
+
+2.1 Study Identifier
+====================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** The trial registration number provided by ANZCTR must be in the DataCite record to enable the HeSANDA portal to associate a DataCite metadata record with an ANZCTR metadata record.
+
+ANZCTR trial registration number 
+
+*Metadata fields:*
+
+.. contents:: :local:
+
+.. rubric:: Example DataCite XML
+
+.. code:: xml
+
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy" resourceTypeGeneral="JournalArticle">10.21384/bar</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata" relatedMetadataScheme="DDI-L" schemeType="XSD" schemeURI="http://www.ddialliance.org/Specification/DDI-Lifecycle/3.1/XMLSchema/instance.xsd">https://example.com/</relatedIdentifier>
+  </relatedIdentifiers>
+
+
+.. _anzctr_ID:
+
+ANZCTR Trial Registration Number
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** ACTRN12622000922774
+
+**Controlled vocabulary source** ANZCTR
+
+.. _12:
+
+DataCite 12. RelatedIdentifier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text
+
+**Example input:** https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12622000922774
+
+**Controlled vocabulary source** Nil
+
+
+**Notes**
+
+.. _12.a:
+
+DataCite 12.a relatedIdentifierType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** Must be 'URL'
+
+**Controlled vocabulary source** Nil
+
+**Notes**
+
+.. _12.b:
+
+DataCite 12.b relationType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** Must be 'References'
+
+**Controlled vocabulary source** Nil
+
+**Notes**
+

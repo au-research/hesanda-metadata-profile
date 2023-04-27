@@ -1,0 +1,14 @@
+.. _2.5:
+
+2.5 Activity/research study type
+================================
+
+======== ==========
+Required Repeatable
+======== ==========
+Yes      No
+======== ==========
+
+**Definition:** The type of activity/study that produced the data asset.
+
+HeSANDA will use the value in field 1.10 to indicate the study type
