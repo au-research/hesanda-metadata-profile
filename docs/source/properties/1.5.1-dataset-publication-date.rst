@@ -13,6 +13,9 @@ Yes      No
 
 The year that the data asset was made available, in yyyy format.
 
+This is quite likely to be the same year that the DOI was minted and the data first made discoverable through the HeSANDA portal. However, for older datasets it might be that they were
+available to third parties before the HeSANDA project. Consider using an older year instead, so as to give a true reflection of the age of the dataset.
+
 *Metadata fields:*
 
 .. contents:: :local:
@@ -35,6 +38,4 @@ DataCite 5 PublicationYear
 **Example input:** 1999
 
 **Controlled vocabulary source:** Nil
-
-**Notes:**
 

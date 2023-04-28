@@ -33,3 +33,18 @@ beyond the technical requirements of your systems and workflows.
 The metadata must conform to both the DataCite metadata standard 4.4 as well as this HeSANDA metadata profile.
 
 `DataCite's Fabrica service can be used to validate metadata <https://support.datacite.org/docs/how-do-i-validate-doi-metadata>`_ against the DataCite metadata schema.
+
+What needs to have a DOI?
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The most important thing in HeSANDA is the Individual Participant Data (IPD) - the DOI created for this artifact is essential for having a dataset appear in the
+HeSANDA catalogue.
+
+Other artifacts of the study, such as a data dictionary or study protocol, can also have DOIs minted for them, with fewer required metadata fields than for the IPD:
+
+* Landing page URL
+* Creator
+* Title
+* Publisher
+* Publication year
+* Resource type general - "Text" for a data dictionary, "Workflow" for a study protocol

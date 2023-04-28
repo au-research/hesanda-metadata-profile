@@ -11,8 +11,14 @@ Yes      Yes
 
 **Definition:** 
 
-Names of the individual(s) or entity(ies) who created the data asset. 1 These could be the  main researchers involved in producing the data, or the authors of the publication, in priority order. To supply multiple creators, repeat this
+Names of the individual(s) or organisation(s) who created the data asset. 1 These could be the  main researchers involved in producing the data, or the authors of the publication, in priority order. To supply multiple creators, repeat this
 Property. May be a corporate/institutional or personal name. May also include affiliation for personal names.
+
+Who to include is a decision similar to that of the authorship of a journal article. Who should be getting kudos/recognition
+for the creation of this dataset?
+
+You can have more than one dataset creator, so all members of a team can be credited. Alternatively, you can split between
+Creator and Contributor, depending on degree and type of contribution.
 
 *The inclusion of ORCID for individuals and ROR identifiers for organisations is strongly recommended.
 
@@ -67,7 +73,6 @@ DataCite 2.1 creatorName
 
 **Notes:**
 
-
 .. _2.1.a:
 
 DataCite 2.1.a nameType
@@ -97,10 +102,6 @@ DataCite 2.2 givenName
 
 **Example input:** Jane
 
-**Allowed values, examples, other constraints:**
-
-Examples based on the 2.1 names: Antoine; Mae
-
 .. _2.3:
 
 DataCite 2.3 familyName
@@ -111,10 +112,6 @@ DataCite 2.3 familyName
 **Input type:** Text
 
 **Example input:** Doe
-
-**Allowed values, examples, other constraints:**
-
-Examples based on the 2.1 names: Charpy; Jemison
 
 .. _2.4:
 
@@ -127,15 +124,9 @@ DataCite 2.4 nameIdentifier
 
 **Example input:** https://orcid.org/0000-0000-0001-0003
 
-**Allowed values, examples, other constraints:**
+**Notes:**
 
-The format is dependent upon scheme.
-
-Examples:
-
-* https://orcid.org/0000-0001-5727-2427
-* https://isni.org/isni/0000000492299539
-* https://ror.org/04aj4c181
+An ORCID will follow a human and a ROR will follow an organisation through name changes.
 
 .. _2.4.a:
 
@@ -189,18 +180,11 @@ DataCite 2.5 affiliation
 
 **Example input:** Holt University
 
-**Allowed values, examples, other constraints**
+**Notes:**
 
-Free text.
+This should be the affiliation of the creator when the study was undertaken and data asset created, not their current affiliation.
 
-The creator's nameType may be *Organizational* or *Personal*. In the case of an organizational creator, e.g., a research group,
-this will often be the name of the institution to which that organization belongs.
-
-Examples:
-
-* German National Library of Science and Technology
-* DataCite
-
+If the name of the affiliated organisation has changed since the study was undertaken, use the historical name.
 
 .. _2.5.a:
 
@@ -213,14 +197,9 @@ DataCite 2.5.a affiliationIdentifier
 
 **Example input** https://ror.org/02czsnj07
 
-**Allowed values, examples, other constraints:**
+**Notes**
 
-The format is dependent upon scheme.
-
-Examples:
-
-* https://ror.org/04aj4c181
-* https://isni.org/isni/0000000492299539
+A ROR ID will follow an organisation through name changes, so this should not need to be changed if an organisation changes name.
 
 .. _2.5.b:
 

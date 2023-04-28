@@ -13,7 +13,7 @@ No       Yes
 
 Qualifying words that help the reader understand more about the dataset, that can help differentiate this dataset from others. 
 
-These Text keywords are not constrained by vocabularies, however the use of vocabularies (e.g. MeSH, SNOMED, etc) is strongly recommended.
+These Text keywords are not constrained by vocabularies, however the use of vocabularies (e.g. MeSH, SNOMED, ICD-11, etc) is strongly recommended.
 
 *Metadata fields:*
 

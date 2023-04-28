@@ -32,4 +32,4 @@ DataCite 10.a resourceTypeGeneral
 
 **Input type:** Text from list
 
-**Example input:** MUST be “Dataset”
+**Example input:** MUST be "Dataset"

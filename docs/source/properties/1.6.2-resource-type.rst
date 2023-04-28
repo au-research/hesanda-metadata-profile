@@ -9,9 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-**Definition:** “Individual Participant Data (IPD)” 
-
-Note: The use of a controlled terminology will be considered.
+**Definition:** For IPD, always: "Individual Participant Data (IPD)" 
 
 *Metadata fields:*
 
@@ -32,6 +30,6 @@ DataCite 10. ResourceType
 
 **Input type:** Text from list
 
-**Example input:** MUST be “Individual Participant Data (IPD)”
+**Example input:** MUST be "Individual Participant Data (IPD)"
 
 **Controlled vocabulary source** HeSANDA
