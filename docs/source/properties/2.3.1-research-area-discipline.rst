@@ -39,7 +39,7 @@ DataCite 6 Subject
 
 **Example input:** Endocrinology
 
-**Controlled vocabulary source:** Nil
+**Controlled vocabulary source:** HeSANDA requires at least one ANZSRC FoR code.
 
 .. _6.a:
 
