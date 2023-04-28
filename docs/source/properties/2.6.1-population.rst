@@ -26,3 +26,4 @@ E.g.
 * Breast cancer
 * Medication error
 
+**Notes:** Follow ANZCTR guidance for correct terminologies.
