@@ -38,9 +38,9 @@ DataCite 6 Subject
 
 **Example input:** Blood pressure
 
-**Controlled vocabulary source:** Use of a medical vocabulary such as MeSH or SNOMED is highly recommended.
+**Controlled vocabulary source:** Use of a medical vocabulary such as MeSH, SNOMED or ICD-11 is highly recommended.
 
-**Notes:**
+**Notes:** 
 
 .. _6.a:
 
