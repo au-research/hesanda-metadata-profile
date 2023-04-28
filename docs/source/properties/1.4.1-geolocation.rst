@@ -44,7 +44,7 @@ Repeat this property to indicate several different locations.
 
 .. _18:
 
-Data 18 GeoLocation
+DataCite 18 GeoLocation
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -78,7 +78,7 @@ Refer to pages 29-32 of DataCite Metadata Schema 4.4
 
 .. _18.1:
 
-18.1 geoLocationPoint
+DataCite 18.1 geoLocationPoint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -95,7 +95,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.1.1:
 
-18.1.1 pointLongitude
+DataCite 18.1.1 pointLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -110,7 +110,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.1.2:
 
-18.1.2 pointLatitude
+DataCite 18.1.2 pointLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -123,7 +123,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.2:
 
-18.2 geoLocationBox
+DataCite 18.2 geoLocationBox
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -140,7 +140,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.2.1:
 
-18.2.1 westBoundLongitude
+DataCite 18.2.1 westBoundLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -155,7 +155,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.2.2:
 
-18.2.2 eastBoundLongitude
+DataCite 18.2.2 eastBoundLongitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -170,7 +170,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.2.3:
 
-18.2.3 southBoundLatitude
+DataCite 18.2.3 southBoundLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -185,7 +185,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.2.4:
 
-18.2.4 northBoundLatitude
+DataCite 18.2.4 northBoundLatitude
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -200,7 +200,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.3:
 
-18.3 geoLocationPlace
+DataCite 18.3 geoLocationPlace
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -218,7 +218,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.4:
 
-18.4 geoLocationPolygon
+DataCite 18.4 geoLocationPolygon
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -229,7 +229,7 @@ Decimal representation of longitude and latitude, negatives being south and west
 
 .. _18.4.1:
 
-18.4.1 polygonPoint
+DataCite 18.4.1 polygonPoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 4-n
@@ -246,7 +246,7 @@ A polygon is delimited by geographic points. Each point is defined by a longitud
 
 .. _18.4.1.1:
 
-18.4.1.1 pointLongitude
+DataCite 18.4.1.1 pointLongitude
 ##########################
 
 **Occurrences:** 1
@@ -261,7 +261,7 @@ A polygon is delimited by geographic points. Each point is defined by a longitud
 
 .. _18.4.1.2:
 
-18.4.1.2 pointLatitude
+DataCite 18.4.1.2 pointLatitude
 ##########################
 
 **Occurrences:** 1
@@ -276,7 +276,7 @@ A polygon is delimited by geographic points. Each point is defined by a longitud
 
 .. _18.4.2:
 
-18.4.2 inPolygonPoint
+DataCite 18.4.2 inPolygonPoint
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -293,7 +293,7 @@ inPolygonPoint is only necessary to indicate the "inside" of the polygon if the 
 
 .. _18.4.2.1:
 
-18.4.2.1 pointLongitude
+DataCite 18.4.2.1 pointLongitude
 ##########################
 
 **Occurrences:** 1
@@ -307,7 +307,7 @@ inPolygonPoint is only necessary to indicate the "inside" of the polygon if the 
 
 .. _18.4.2.2:
 
-18.4.2.2 pointLatitude
+DataCite 18.4.2.2 pointLatitude
 ##########################
 
 **Occurrences:** 1
