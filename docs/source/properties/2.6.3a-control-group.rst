@@ -23,6 +23,7 @@ ANZCTR Step 3 - Control group
 **Example input:** Nil
 
 **Controlled vocabulary source:**
+
 * Placebo: an inactive or sham treatment that has no treatment value is given to the control group, such as sugar pill or saline solution.
 * Active: when the control treatment is active. This includes standard care, alternate forms of treatment, no treatment given, or if patients act as their own control (crossover study).
 * Uncontrolled: when there is no control group, as in single group trials. The same intervention is applied to all subjects in the study.

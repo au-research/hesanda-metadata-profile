@@ -55,6 +55,7 @@ ANZCTR Step 11 - What supporting documents are/will be available?
 **Controlled vocabulary source:**
 
 From ANZCTR data field explanation:
+
 * No other documents available
 * Study protocol
 * Statistical analysis plan
