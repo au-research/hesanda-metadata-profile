@@ -64,11 +64,17 @@ Repeat this property to indicate several different locations.
 
 **Notes:**
 
+Geolocation is not autofilled in the DataCite metadata.
+
+Tools that help with finding coordinates include https://www.latlong.net/, and for box coordinates, http://bboxfinder.com/
+For box coordinates, you can use this tool. 
+
 DataCite 18 is human readable, and could use any number of sources. It is repeatable if you want to specify a number of Australian states without implying all states. That is to say, specify Western Australia, Tasmania, and South Australia rather than simply Australia.
 
 Only one, if any, of 18.1, 18.2, 18.3, 18.4 should be filled in.
 
 Refer to pages 29-32 of DataCite Metadata Schema 4.4
+
 
 .. _18.1:
 
