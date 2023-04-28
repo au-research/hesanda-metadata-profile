@@ -14,3 +14,4 @@ Contents
 
    introduction/index
    properties/index
+   guidance/index
