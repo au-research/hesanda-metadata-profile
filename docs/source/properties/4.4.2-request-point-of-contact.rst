@@ -17,7 +17,7 @@ This may be a different point of contact than that used for enquiries about the 
 
 This field will be used by the HeSANDA Federations Service to direct where data requests will be sent. 
 
-The Request Point of Contact will need to be separately registered with ARDC to enable this functionality.
+The Request Point of Contact will need to be separately registered with ARDC to enable this functionality. To register, please provide the **contributorName** and associated email address to the HeSANDA team.
 
 *Metadata fields:*
 
@@ -28,16 +28,9 @@ The Request Point of Contact will need to be separately registered with ARDC to 
 .. code:: xml
 
   <contributors>
-      <contributor contributorType="Data Collector">
-          <contributorName nameType="Personal">Garcia, Sofia</contributorName>
-          <givenName>Sofia</givenName>
-          <familyName>Garcia</familyName>
-          <nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-5727-2427</nameIdentifier>
-          <affiliation affiliationIdentifier="https://ror.org/03efmqc40" affiiationIdentifierScheme="ROR" schemeURI="https://ror.org">Arizona State University</affiliation>
-      </contributor>
-      <contributor contributorType="HostingInstitution">
-          <contributorName xml:lang="en" nameType="Organizational">California Digital Library</contributorName>
-          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/03yrm5c26</nameIdentifier>
+      <contributor contributorType="Distributor">
+          <contributorName xml:lang="en" nameType="Organizational">Australasian Leukaemia and Lymphoma Group (ALLG)</contributorName>
+          <nameIdentifier schemeURI="https://ror.org/" nameIdentifierScheme="ROR">https://ror.org/05t72y326</nameIdentifier>
       </contributor>
   </contributors>
 
@@ -70,6 +63,8 @@ DataCite 7.1 contributorName
 **Controlled vocabulary source:** List of all HeSANDA data providers
 
 **Notes:**
+
+Since the system will be matching based on the contributorName, this field **must** be applied consistently.
 
 .. _7.1.a:
 
