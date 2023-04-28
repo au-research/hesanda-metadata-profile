@@ -1,6 +1,6 @@
-.. _1.7:
+.. _1.8:
 
-1.7 Format
+1.8 Version
 ==========
 
 ======== ==========
@@ -32,7 +32,7 @@ DataCite 15. Version
 
 **Example input:** 1.0.0
 
-**Controlled vocabulary source** Link to definition of semantic versioning.
+**Controlled vocabulary source**
 
-**Notes** We recommend the use of semantic versioning
+**Notes** We recommend the use of `semantic versioning <https://semver.org/>`_
 
