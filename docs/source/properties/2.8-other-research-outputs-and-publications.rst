@@ -1,6 +1,6 @@
 .. _2.8:
 
-2.8 Other research outputs and related publications (NYI)
+2.8 Other research outputs and related publications
 ==============================
 
 ======== ==========
@@ -30,16 +30,6 @@ For biospecimens, please select RelatedItemType as PhysicalObject.
 If requested, we can provide an example per research output and related publication type.
 
 *Metadata fields:*
-
-.. contents:: :local:
-
-.. rubric:: Example DataCite XML
-
-.. code:: xml
-
-  <subjects>
-    <subject xml:lang="en" subjectScheme="MeSH" schemeURI="http://id.nlm.nih.gov/mesh/" valueURI="https://id.nlm.nih.gov/mesh/D001794" classificationCode="D001794">Blood pressure</subject>
-  </subject>
 
 .. _step11:
 
