@@ -40,8 +40,8 @@ Property. May be a corporate/institutional or personal name. May also include af
 
 .. _2: 
 
- DataCite 2 Creator
-
+DataCite 2 Creator
+~~~~~~~~~~~~~~~~~~~
 **Occurrences:** 1-n
 
 **Input Type** n/a
@@ -50,12 +50,12 @@ Property. May be a corporate/institutional or personal name. May also include af
 
 **Controlled vocabulary source** Nil
 
-**Notes**
+**Notes:**
 
 .. _2.1:
 
 DataCite 2.1 creatorName
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 
