@@ -36,6 +36,7 @@ Examples:
 .. _4:
 
 DataCite 4. Publisher
+~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
 

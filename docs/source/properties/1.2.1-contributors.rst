@@ -41,6 +41,7 @@ These are contributors in addition to the creators, ie. the institution or perso
 .. _7:
 
 DataCite 7 Contributor
+~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** Nil
 
@@ -54,7 +55,7 @@ DataCite 7 Contributor
 
 .. _7.a:
 
-7.a contributorType
+DataCite 7.a contributorType
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -89,10 +90,9 @@ DataCite 7 Contributor
 
 See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices/appendix_1/contributorType>` for definitions.
 
-
 .. _7.1:
 
-7.1 contributorName
+DataCite 7.1 contributorName
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 1
@@ -107,7 +107,7 @@ See :doc:`Appendix 1: Controlled List Definitions - contributorType </appendices
 
 .. _7.1.a:
 
-7.1.a nameType
+DataCite 7.1.a nameType
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -125,7 +125,7 @@ From the DataCite schema:
 
 .. _7.2:
 
-7.2 givenName
+DataCite 7.2 givenName
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -140,7 +140,7 @@ From the DataCite schema:
 
 .. _7.3:
 
-7.3 familyName
+DataCite 7.3 familyName
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-1
@@ -156,7 +156,7 @@ From the DataCite schema:
 
 .. _7.4:
 
-7.4 nameIdentifier
+DataCite 7.4 nameIdentifier
 ~~~~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -171,7 +171,7 @@ From the DataCite schema:
 
 .. _7.4.a:
 
-7.4.a nameIdentifierScheme
+DataCite 7.4.a nameIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -192,7 +192,7 @@ From the DataCite metadata schema:
 
 .. _7.4.b:
 
-7.4.b schemeURI
+DataCite 7.4.b schemeURI
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
@@ -213,7 +213,7 @@ From the DataCite metadata schema:
 
 .. _7.5:
 
-7.5 affiliation
+DataCite 7.5 affiliation
 ~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
@@ -238,7 +238,7 @@ From the DataCite metadata schema:
 
 .. _7.5.a:
 
-7.5.a affiliationIdentifier
+DataCite 7.5.a affiliationIdentifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-n
@@ -255,7 +255,7 @@ https://ror.org/04aj4c181
 
 .. _7.5.b:
 
-7.5.b affiliationIdentifierScheme
+DataCite 7.5.b affiliationIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 1
@@ -275,7 +275,7 @@ From the DataCite metadata schema:
 
 .. _7.5.c:
 
-7.5.c schemeURI
+DataCite 7.5.c schemeURI
 ^^^^^^^^^^^^^^^^^^^
 
 **Occurrences:** 0-1
