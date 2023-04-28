@@ -44,8 +44,8 @@ Repeat this property to indicate several different locations.
 
 .. _18:
 
-18. GeoLocation
-====================
+Data 18 GeoLocation
+~~~~~~~~~~~~~~~~~~~
 
 **Occurrences:** 0-n
 
