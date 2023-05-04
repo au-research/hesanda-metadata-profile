@@ -20,10 +20,13 @@ ANZCTR Step 2 - Health condition(s) or problem(s) studied
 
 **Occurrences:** 1
 
-**Controlled vocabulary source:** 
-E.g. 
+**Example input:** 
+e.g. 
+
 * Depression
 * Breast cancer
 * Medication error
+
+**Controlled vocabulary source:** Nil
 
 **Notes:** Follow ANZCTR guidance for correct terminologies.
