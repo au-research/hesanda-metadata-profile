@@ -24,6 +24,10 @@ landing page will provide the "who what when where why how" such as who created 
 and so on. DataCite provides `information on best practice for landing pages <https://support.datacite.org/docs/landing-pages>`_.
 A landing page should be hosted on your own systems, such as in a data repository or on a website.
 
+For each landing page link, a full stop (.) will need to be included in the url, or www.
+For example, the link to the landing page cannot be https://trog.com.au//landingpage .
+Instead, it must to be https://www.trog.com.au/landingpage
+
 Metadata format - XML or JSON
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
