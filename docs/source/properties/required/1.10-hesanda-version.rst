@@ -50,7 +50,8 @@ DataCite 17.a descriptionType
 
 **Controlled vocabulary source** 
 
-From the DataCite metadata schema: 
+From the DataCite metadata schema:
+
 * Abstract Methods
 * SeriesInformation
 * TableOfContents
