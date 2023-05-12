@@ -12,7 +12,8 @@ No       Yes
 
 **Definition:** 
 
-These are contributors in addition to the creators, ie. the institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. To supply multiple contributors, repeat this property.
+These are contributors in addition to the creators, ie. the institution or person responsible for collecting, managing, distributing, or otherwise contributing to the
+development of the resource. To supply multiple contributors, repeat this property.
 
 *The inclusion of ORCID for individuals and ROR identifiers for organisations is strongly recommended.
 
@@ -218,23 +219,17 @@ DataCite 7.5 affiliation
 
 **Occurrences:** 0-n
 
-**Input type:** Text
+**Input type:** Free text
 
 **Example input:** Holt University
 
-**Controlled vocabulary source:** 
-
-Free text.
-
-The contributor's nameType may be *Organizational* or *Personal*. In the case of an organizational contributor, e.g., a research group,
-this will often be the name of the institution to which that organization belongs.
-
-From the DataCite metadata schema:
-
-* German National Library of Science and Technology
-* DataCite
+**Controlled vocabulary source:** Nil
 
 **Notes:**
+
+This should be the affiliation of the creator when the study was undertaken and data asset created, not their current affiliation.
+
+If the name of the affiliated organisation has changed since the study was undertaken, use the historical name.
 
 .. _7.5.a:
 
@@ -245,13 +240,15 @@ DataCite 7.5.a affiliationIdentifier
 
 **Input type:** Text
 
-**Example input:** Holt University
+**Example input:** https://ror.org/04aj4c181
 
 **Controlled vocabulary source:** 
 
-https://ror.org/04aj4c181
+`Search ROR <https://ror.org/>`_ to find the appropriate ROR ID for an organisation.
 
 **Notes:**
+
+A ROR ID will follow an organisation through name changes, so this should not need to be changed if an organisation changes name.
 
 .. _7.5.b:
 
