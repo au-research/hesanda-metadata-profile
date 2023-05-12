@@ -91,6 +91,52 @@ DataCite 20 RelatedItem
 
 **Notes:**
 
+.. _20.a:
+
+DataCite 20.a relatedItemType 
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 1
+
+**Input type:** Text from list
+
+**Example input:** Text
+
+**Controlled vocabulary source:**
+
+From the DataCite metadata schema"
+
+* Audiovisual
+* Book
+* BookChapter
+* Collection
+* ComputationalNotebook
+* ConferencePaper
+* ConferenceProceeding
+* DataPaper
+* Dataset
+* Dissertation
+* Event
+* Image
+* InteractiveResource
+* Instrument
+* Journal
+* JournalArticle
+* Model
+* OutputManagementPlan
+* PeerReview
+* PhysicalObject
+* Preprint
+* Report
+* Service
+* Software
+* Sound
+* Standard
+* StudyRegistration
+* Text
+* Workflow
+* Other
+
 .. _20.b:
 
 DataCite 20.b relationType 
@@ -100,13 +146,14 @@ DataCite 20.b relationType
 
 **Input type:** Text from list
 
-**Example input:** https://id.nlm.nih.gov/mesh/D001794
+**Example input:** Documents
 
 **Controlled vocabulary source:**
 
 From the DataCite metadata schema
 
-* IsCitedBy Cites
+* IsCitedBy
+* Cites
 * IsSupplementTo
 * IsSupplementedBy
 * IsContinuedBy
