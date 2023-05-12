@@ -13,7 +13,7 @@ Yes      Yes
 
 A subject is a term, keyword, classification code or phrase representing the primary topic or topics covered by a registry object. This information answers the questions: What subject terms describe the topic of the object? What is it about?
 
-HeSANDA requires at least one ANZSRC FOR code specified to the six-digit level. 
+HeSANDA requires at least one ANZSRC FoR code. 
 
 *Metadata fields:*
 
