@@ -22,19 +22,5 @@ Data sharing policies are broad in nature and represent the general position of 
 
 See also Permitted uses [4.1] and Rights/Licence [4.3].
 
-.. _step11:
+**Notes:** This field is incomplete and will be updated according to HeSANDA Nominated Trials completing the ANZCTR Data Sharing Statement.
 
-ANZCTR Step 11: Data sharing statement
-~~~~~~~~~~~~~~~~~~~
-
-**Occurrences:** 1
-
-**Input type:** Text
-
-**Example input:**
-
-Medical Director for the Study, +61 2 9562 5333, Department of Clinical Trials, Holt University, enquiries@holt.edu.au
-
-**Controlled vocabulary source:** Nil
-
-**Notes:**
