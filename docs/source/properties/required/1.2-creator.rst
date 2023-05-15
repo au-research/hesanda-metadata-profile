@@ -12,8 +12,7 @@ Yes      Yes
 **Definition:** 
 
 Names of the individual(s) or organisation(s) who created the data asset. 1 These could be the  main researchers involved in producing the data, or
-the authors of the publication, in priority order. To supply multiple creators, repeat this
-Property. May be a corporate/institutional or personal name. May also include affiliation for personal names.
+the authors of the publication, in priority order. To supply multiple creators, repeat this property. May be a corporate/institutional or personal name. May also include affiliation for personal names.
 
 Who to include is a decision similar to that of the authorship of a journal article. Who should be getting kudos/recognition
 for the creation of this dataset?
