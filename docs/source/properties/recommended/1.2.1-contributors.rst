@@ -170,6 +170,8 @@ DataCite 7.4 nameIdentifier
 
 **Notes:**
 
+An email address is not a valid identifier. Consider using an ORCID (for an individual) or a ROR (for an organisation) instead.
+
 .. _7.4.a:
 
 DataCite 7.4.a nameIdentifierScheme

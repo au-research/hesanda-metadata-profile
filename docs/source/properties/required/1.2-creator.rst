@@ -126,6 +126,8 @@ DataCite 2.4 nameIdentifier
 
 **Notes:**
 
+An email address is not a valid identifier. Consider using an ORCID (for an individual) or a ROR (for an organisation) instead.
+
 An ORCID will follow a human and a ROR will follow an organisation through name changes.
 
 .. _2.4.a:
