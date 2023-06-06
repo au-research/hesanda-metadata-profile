@@ -37,7 +37,7 @@ DataCite 11. AlternateIdentifier
 
 **Controlled vocabulary source** Nil
 
-**Notes** We recommend the use of semantic versioning
+**Notes:** We recommend the use of semantic versioning
 
 DataCite 11.a alternateIdentifierType
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -50,4 +50,4 @@ DataCite 11.a alternateIdentifierType
 
 **Controlled vocabulary source** Nil
 
-**Notes** We recommend the use of semantic versioning
+**Notes:** We recommend the use of semantic versioning

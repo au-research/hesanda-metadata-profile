@@ -38,6 +38,6 @@ DataCite 14. Format
 
 **Controlled vocabulary source** Refer to IANA’s Media Types list for MIME types.
 
-**Notes** Use file extension or MIME type where possible, e.g., PDF, XML, MPG or application/pdf, text/xml, video/mpeg.
+**Notes:** Use file extension or MIME type where possible, e.g., PDF, XML, MPG or application/pdf, text/xml, video/mpeg.
 
 A human-readable text description of the files in the dataset, such as “CT scans of vertebrae”, should go in 3.2 Dataset description (DataCite field 17)

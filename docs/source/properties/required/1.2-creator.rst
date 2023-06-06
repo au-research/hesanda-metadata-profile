@@ -203,7 +203,7 @@ DataCite 2.5.a affiliationIdentifier
 
 `Search ROR <https://ror.org/>`_ to find the appropriate ROR ID for an organisation.
 
-**Notes**
+**Notes:**
 
 A ROR ID will follow an organisation through name changes, so this should not need to be changed if an organisation changes name.
 
