@@ -39,8 +39,9 @@ DataCite 8. Date
 
 **Controlled vocabulary source:** Use RKMS-ISO8601 format
 
-**Notes:** The value is the date specified in the format ‘2022-05-31’
-For a date range, it can appear as‘2019-08/2020-07’, with the forward slash as a time period (acting as a hyphen). 
+**Notes:** The value is the date specified in the format '2022-05-31'
+For a date range, it can appear as '2019-08/2020-07', with the forward slash as a time period (acting as a hyphen). 
+
 .. _8.a:
 
 DataCite 8.a dateType
