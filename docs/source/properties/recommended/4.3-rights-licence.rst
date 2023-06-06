@@ -9,7 +9,7 @@ Required Repeatable
 No       Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 Any intellectual property rights and/or licensing information regarding sharing and/or secondary use of the data object. This may be expressed as:
 

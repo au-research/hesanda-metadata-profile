@@ -9,7 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 .. _step5:
 

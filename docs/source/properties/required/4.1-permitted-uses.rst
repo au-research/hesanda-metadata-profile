@@ -9,7 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 A brief general description of the kinds of permitted secondary uses of the dataset. These uses would generally be dictated by the terms of consent and/or HREC approval. A more detailed description of the terms of use would be provided via the Data Sharing Policy [4.2] and Rights/Licence [4.3] attribute.
 

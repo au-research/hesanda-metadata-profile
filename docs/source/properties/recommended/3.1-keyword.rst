@@ -9,7 +9,7 @@ Required Repeatable
 No       Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 Qualifying words that help the reader understand more about the dataset, that can help differentiate this dataset from others. 
 
