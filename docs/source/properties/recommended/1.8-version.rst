@@ -34,5 +34,5 @@ DataCite 15. Version
 
 **Controlled vocabulary source**
 
-**Notes:** We recommend the use of `semantic versioning <https://semver.org/>`_
+**Notes:** We recommend the use of `semantic versioning <https://semver.org/>`_.
 

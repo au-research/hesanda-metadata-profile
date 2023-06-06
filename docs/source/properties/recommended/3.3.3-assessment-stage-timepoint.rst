@@ -18,7 +18,7 @@ The assessment stage or timepoint at which the dataset was collected. This is a 
 DataCite 17 Description
 ~~~~~~~~~~~~~~~~~~~
 
-see 3.2 Dataset description
+See 3.2 Dataset description
 
 **Notes:**
 

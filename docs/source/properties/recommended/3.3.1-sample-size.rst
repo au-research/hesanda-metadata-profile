@@ -30,4 +30,4 @@ ANZCTR Step 7 - Final sample size
 
 Please note that the ANZCTR metadata describes the sample for the whole trial; individual datasets produced by the trial may be derived from subsets of the whole sample. 
 
-The sample size for individual datasets should appear in 3.2 Dataset description
+The sample size for individual datasets should appear in 3.2 Dataset description.
