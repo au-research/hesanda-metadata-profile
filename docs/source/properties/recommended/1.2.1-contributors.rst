@@ -15,7 +15,7 @@ No       Yes
 These are contributors in addition to the creators, ie. the institution or person responsible for collecting, managing, distributing, or otherwise contributing to the
 development of the resource. To supply multiple contributors, repeat this property.
 
-*The inclusion of ORCID for individuals and ROR identifiers for organisations is strongly recommended.
+**The inclusion of ORCID for individuals and ROR identifiers for organisations is strongly recommended.**
 
 *Metadata fields*
 
