@@ -9,7 +9,7 @@ Required Repeatable
 No       Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 The assessment stage or timepoint at which the dataset was collected. This is a subset of the indicated timepoints in 2.6.4.
 

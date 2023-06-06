@@ -9,7 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 A policy statement and/or set of procedures that addresses secondary use of the dataset. This would commonly be presented as a publicly accessible document or webpage that details items such as the following:
 

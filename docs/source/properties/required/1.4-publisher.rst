@@ -9,7 +9,7 @@ Required Repeatable
 Yes      No
 ======== ==========
 
-**Definition**
+**Definition:**
 
 The name of the entity who is making the data asset available. 
 

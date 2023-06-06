@@ -9,7 +9,7 @@ Required Repeatable
 Yes      Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 The relevant point of contact for requesting additional information about the data asset. The point of contact should be enduring (e.g. role-based) as opposed to a specific individual (e.g. a chief investigator).
 

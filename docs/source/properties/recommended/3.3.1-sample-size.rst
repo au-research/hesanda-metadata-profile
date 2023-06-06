@@ -9,7 +9,7 @@ Required Repeatable
 No       Yes
 ======== ==========
 
-**Definition**
+**Definition:**
 
 A positive integer representing the number of participants in the study.
 

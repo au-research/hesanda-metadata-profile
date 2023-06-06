@@ -9,7 +9,7 @@ Required Repeatable
 Yes      No
 ======== ==========
 
-**Definition**
+**Definition:**
 
 A link to the data dictionary. A link in the form of a persistent identifier (such as a DOI) is strongly recommended. If a DOI is not available, a standard URL is acceptable.
 
