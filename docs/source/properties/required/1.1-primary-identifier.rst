@@ -34,7 +34,7 @@ DataCite 1 Identifier
 
 **Controlled vocabulary source** Nil
 
-**Notes**
+**Notes:**
 
 
 .. _1.a:
@@ -52,4 +52,4 @@ DataCite 1.a Identifier Type
 
 **Controlled vocabulary source** DataCite
 
-**Notes**
+**Notes:**

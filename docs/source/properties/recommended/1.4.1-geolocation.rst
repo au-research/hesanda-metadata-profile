@@ -225,7 +225,7 @@ DataCite 18.4 geoLocationPolygon
 
 **Input type** List of coordinates (at least three to draw a triangle)
 
-**Notes**
+**Notes:**
 
 .. _18.4.1:
 

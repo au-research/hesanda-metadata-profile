@@ -53,7 +53,7 @@ DataCite 12. RelatedIdentifier
 
 **Controlled vocabulary source** Nil
 
-**Notes** The ANZCTR Trial Registration Number must go into the DataCite XML in field 12: RelatedIdentifier as a fully qualified URL e.g.  https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12622000922774
+**Notes:** The ANZCTR Trial Registration Number must go into the DataCite XML in field 12: RelatedIdentifier as a fully qualified URL e.g.  https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12622000922774
 
 .. _12.a:
 
@@ -68,7 +68,7 @@ DataCite 12.a relatedIdentifierType
 
 **Controlled vocabulary source** Nil
 
-**Notes** This MUST be “URL” and DataCite 12.b relationType MUST be “References”.
+**Notes:** This MUST be “URL” and DataCite 12.b relationType MUST be “References”.
 
 
 .. _12.b:
@@ -84,5 +84,5 @@ DataCite 12.b relationType
 
 **Controlled vocabulary source** Nil
 
-**Notes**
+**Notes:**
 
