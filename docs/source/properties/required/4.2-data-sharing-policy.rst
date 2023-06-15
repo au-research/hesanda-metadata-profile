@@ -24,3 +24,35 @@ See also Permitted uses [4.1] and Rights/Licence [4.3].
 
 **Notes:** This field is incomplete and will be updated according to HeSANDA Nominated Trials completing the ANZCTR Data Sharing Statement.
 
+DataCite 16 Rights
+~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-n
+
+**Input type:** Free text
+
+**Example input:** 
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
+
+No example input is given as a data sharing policy for sensitive and non-open data is bespoke to an organisation and/or dataset.
+
+If the data sharing policy is lengthy, consider hosting it on an organisationl website and using DataCite 16.a rightsURI to share the link to
+the data sharing policy.
+
+.. _16.a:
+
+DataCite 16.a rightsURI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Occurrences:** 0-1
+
+**Input type:** Free text
+
+**Example input:** https://www.holt.edu.au/data-sharing-policy
+
+**Controlled vocabulary source:** Nil
+
+**Notes:**
