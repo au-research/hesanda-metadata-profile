@@ -13,11 +13,14 @@ Yes      No
 
 A description containing easily read and understood information about the data asset. The purpose is to enable users not involved in the original study to find, categorise and evaluate the fitness of a data asset to their needs.
 
-It is recommended that the dataset description include:
+Important: The Dataset Description should <u>not<u> simply be a description of the clinical trial.
 
-* the sample size (3.2)
-* sample description (3.3.2)
-* assessment stage/ timepoint (3.3.3)
+The dataset description should include:
+
+* The basic descriptives of the sample population
+* The assessment stage/ time point(s)
+* Which data types are included
+* The file format
 
 for that individual data asset.
 
@@ -29,9 +32,11 @@ for that individual data asset.
 
 .. code:: xml
 
-  <descriptions>
-    <description xml:lang="en" descriptionType="Abstract">Haemoglobin levels observed in blood samples of 50 trial participants taken at timepoint 3.<br />Timepoint 3 - 1 hour, 3 hours (primary timepoint) and 6 hours post dose</description>
-  </descriptions>
+<descriptions>
+  <description xml:lang="en" descriptionType="Abstract"> Haemoglobin levels observed in blood samples of 100 trial participants ( adolescents aged 12-18 years, 63 males /37 females) in the intervention group of the EXEMPLAR study.<br />Timepoints include 1 hour, 3 hours, and 6 hours post dose. Data includes demographics and family medical history in addition to levels of haemoglobin (g/dl) and hematocrit (millions/mm3).<br />The file type is .XLS. 
+</description>
+</descriptions>
+
 
 .. _17:
 
@@ -44,13 +49,51 @@ DataCite 17 Description
 
 **Example input:**
 
-Haemoglobin levels observed in blood samples of 50 trial participants taken at timepoint 3.
-
-Timepoint 3 - 1 hour, 3 hours (primary timepoint) and 6 hours post dose
+Haemoglobin levels observed in blood samples of 100 trial participants ( adolescents aged 12-18 years, 63 males /37 females) in the intervention group of the EXEMPLAR study. Timepoints include 1 hour, 3 hours, and 6 hours post dose. Data includes demographics and family medical history in addition to levels of haemoglobin (g/dl) and hematocrit (millions/mm3). The file type is .XLS.
 
 **Controlled vocabulary source:** Nil
 
 **Notes:**
+
+Examples of information to include:
+
+**Basic descriptives:**
+* Sample size (i.e. in the dataset, especially if this is different from the total number of trial participants)
+* Age range
+* Sex characteristics (e.g. number of females vs males vs other)
+* Breakdown of disease vs healthy, intervention vs control, etc where applicable
+**Assessment stage/Timepoints, e.g.:**
+* “Baseline data only”
+* “Follow-up data collected at 3, 6 and 12 months”
+**Data types:**
+* For example: “demographics”, “family medical history”, “coronal T1-weighted MRI images”
+* This should be general in nature (e.g. 'blood pressure' rather than systolic BP, diastolic BP). More detailed, variable-level descriptions should be provided via the study protocol and/or data dictionary)
+**File format:**
+* File type (e.g., CSV, XLS, PDF, XML, DICOM. Note: use file extension or MIME type where possible)
+* Any other technical or formatting information about the file(s) that may be important to someone when opening or working on the file(s). E.g. “Four DICOM files per subject (620 in total), total size >5TB”
+
+Please ensure that this is the <b>description of the dataset and not the trial</b>. For clarity, please refer to the following comparison:
+
+**Comparison 1:**
+====================================================================================================================================================================================
+Dataset description ✓                         
+====================================================================================================================================================================================
+This dataset includes 384 participants (from 18 years old, 190 males / 194 females) receiving in-centre or home-based hemodialysis or peritoneal dialysis recruited into the EXEMPLAR study from six local health districts in the Greater Sydney region, New South Wales, Australia. Baseline data includes demographics, dialysis history, cognitive status, health literacy and self-efficacy scores. Follow-up data was collected at 3, 6 and 12 months and includes patient reported outcomes (quality of life, knowledge, confidence, health behaviour and self-management) and clinical outcomes (symptom burden (Palliative care Outcome Scale) and nutritional status (Patient-generated Subjective Global Assessment). The file type is .XLS.
+====================================================================================================================================================================================
+Trial description ✗
+====================================================================================================================================================================================
+The purpose of this study is to investigate whether the EXEMPLAR App supports adults with chronic kidney disease to make decisions about their health, and helps increase knowledge, skills and quality of life.
+We developed this smartphone App to support participation in decision-making for adults with stage 5 chronic kidney disease who are currently receiving haemodialysis. It includes information about:
+• Diet
+• Fluids
+• Physical activity
+• Medicines
+• Emotional wellbeing
+• Supportive care
+• Health literacy skills
+The procedure for enrolling a subject includes:
+Participants dialysis at home will be randomised centrally using simple randomisation. It is not feasible to randomise patients individually when attending in-centre dialysis given likely intervention contamination (where the intervention is experienced by controls as well as those allocated the intervention) when control and intervention participants dialyse in the same room three times each week for several hours. However, in-centre patients always attend on the same days; patients either dialyse on Monday, Wednesday and Friday (MWF) or Tuesday, Thursday and Saturday (TTS). We will therefore use a pragmatic approach by randomising the pattern of attendance, not the patient; by centre, all participants attending MWF would be randomly assigned to the EXEMPLAR intervention, or not.
+====================================================================================================================================================================================
 
 .. _17.a:
 
