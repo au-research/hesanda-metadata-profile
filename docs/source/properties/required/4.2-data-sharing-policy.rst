@@ -22,7 +22,7 @@ Data sharing policies are broad in nature and represent the general position of 
 
 See also Permitted uses [4.1] and Rights/Licence [4.3].
 
-**Notes:** This field is incomplete and will be updated according to HeSANDA Nominated Trials completing the ANZCTR Data Sharing Statement.
+**Notes:** This field is incomplete and will be updated according to HeSANDA Nominated Trials completing the ANZCTR Data Sharing Statement. For information on how to fill out the ANZCTR Data Sharing Statement, please refer to the ARDC's  `Guidance for HeSANDA Nominated Trials completing the ANZCTR Data Sharing Statement <https://documentation.ardc.edu.au/rda/guidance-for-hesanda-nominated-trials-completing-t>`_. 
 
 DataCite 16 Rights
 ~~~~~~~~~~~~~~~~~~~
