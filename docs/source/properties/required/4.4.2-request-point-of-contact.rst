@@ -19,7 +19,7 @@ This field will be used by the HeSANDA Federations Service to direct where data 
 
 The Request Point of Contact will need to be separately registered with ARDC to enable this functionality. To register, please provide the **contributorName** and associated email address to the HeSANDA team.
 
-Important note: If a ROR Identifier is included as input for DataCite 7.4 nameIdentifier, please ensure that it is an exact match to the input for DataCite 7.1 contributorName value. 
+**Important note:** If a ROR Identifier is included as input for DataCite 7.4 nameIdentifier, please ensure that it is an exact match to the input for DataCite 7.1 contributorName value. 
 If the organisation which serves as DataCite 7.1 contributorName does not have a ROR, please do **not** include it in DataCite 7.4 nameIdentifier.
 
 *Metadata fields:*
