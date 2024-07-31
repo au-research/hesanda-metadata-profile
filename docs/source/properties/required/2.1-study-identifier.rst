@@ -55,6 +55,10 @@ DataCite 12. RelatedIdentifier
 
 **Notes:** The ANZCTR Trial Registration Number must go into the DataCite XML in field 12: RelatedIdentifier as a fully qualified URL e.g.  https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12622000922774
 
+If the clinical trial is registered via clinicaltrials.gov, please provide the associated URL for this. The NCTID must be provided at the end of the URL. e.g. https://clinicaltrials.gov/study/NCT04394117
+
+
+
 .. _12.a:
 
 DataCite 12.a relatedIdentifierType
