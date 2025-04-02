@@ -8,19 +8,59 @@ This page contains general guidance about minting DOIs that is not directly rele
 Datasets that will be available in the future
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a dataset is not yet available for sharing but will be in the future (i.e. 'under embargo') then it can still be included in the HeSANDA catalogue. This may include if
-data collection is still being completed or if the main results are still being prepared for publication. To indicate your dataset will be available in the future:
+If a dataset is not yet available for sharing but will be in the future, we term this ‘under embargo’. These datasets can still be included in the Health Data Australia's catalogue. 
 
-* In DataCite 5 PublicationYear, indicate the year that the data will be available for sharing
-* In the ANZCTR Data Sharing Statement, include the date that the dataset will be available for sharing as part of your response to the questions "When will data be available (start and end dates)?". An approximate date (e.g. July 2024) is acceptable.
+The dataset-availability enhancements to Health Data Australia will be driven by the metadata use recommended by the DataCite Metadata Schema for indicating embargo (the relevant areas persist from version 4.4 though version 4.6). ARDC will not be recommending any additional or different metadata use.
 
-**Optional:** you may also include the date in DataCite 8 Date. If you do this, you must specify the value "Available" for the associated field DataCite 8.a dateType
+**Is my dataset 'under embargo'?**
 
-As per the `DataCite v.4.4 schema documentation <https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf>`_ (Page 16), the definition of PublicationYear
-is: "The year when the data was or will be made publicly available". Furthermore:
+A dataset is considered ‘under embargo’ when it is not available to third parties outside of its research study. 
 
-"If an embargo period has been in effect, use the date when the embargo period ends. In the case of datasets, "publish" is understood to mean making the data available on a specific
-date to the community of researchers. If there is no standard publication year value, use the date that would be preferred from a citation perspective."
+If the intent of the embargo is to prevent third party access permanently, then the dataset is inappropriate for inclusion in Health Data Australia. Only datasets that are currently available or are under a temporary embargo are appropriate for inclusion in Health Data Australia.
+
+**How do I provide datasets that are under embargo to Health Data Australia?**
+
+If your dataset is under embargo, it is important to advise prospective data requesters of the extent and nature of the embargo, as it may affect their decision to submit a data request.
+
+Guidance is provided in DataCite’s Metadata Schema 4.4 on how to include embargoed datasets in the source metadata of the DataCite DOI. From this schema, the following information must be provided to indicate your dataset will be available in the future in HDA:
+
+1. In `DataCite (8.) Date <https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/date/#date>`_ , please include both:
+
+(a.) The value for “Available” for the associated field DataCite (8.a) dateType.
+
+(b.) The dates the dataset will be available from, and optionally to.
+
+(i.) Accepted date formats are “(YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format as per DataCite guidelines”). 
+
+(ii.) Use a single date to indicate the date from when a dataset is available. 
+
+(iii.) If availability is expected to expire, use two dates for availability - the first to indicate the date from when a dataset is available and then a second date to indicate to (until) when the dataset is available.  “Use RKMS-ISO8601 standard for depicting date ranges.”  
+
+
+1.a. Additional advice on DataCite (8.) Date:
+
+* We encourage providing as specific a date as possible (i.e. to the day).  Where day is not provided, HDA will presume the first day of the month for from date and - where a range is provided - the last day of the month for to date.  Where month is not provided, HDA will presume the first month of the year for from date and - where a range is provided - the last month of the year for to date.  
+* You are encouraged to follow all DataCite Metadata Schema advice relevant to embargo datasets.  For example, the use of Date/s of type “Submitted” and or “Accepted”, where relevant.  HDA will display these dates, but no behaviour beyond display will be driven by any metadata other than Date of type “Available”. 
+
+2. In `DataCite 16 Rights <https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/rights/>`_ , provide a free-text explanation as to why the dataset is under embargo, whether pre-embargo sharing might be considered, and under what circumstances. Please see the table below for guidance.
+
+**Strongly recommended**
+
+* In the ANZCTR Data Sharing Statement, include the date that the dataset will be available for sharing as part of your response to the questions “When will data be available (start and end dates)?”. An approximate date (e.g. July 2025) is acceptable.
+
+Note: The ARDC acknowledges that DataCite 5 Publication Year is advised to be used to indicate an embargo date in DataCite Schema 4.4. Please be aware that the dataset-availability enhancements to HDA will be is driven by the DataCite 8 Date = dateType “Available” only - not Publication Year. Therefore, this field must be included in order for the enhanced functionality to occur.
+
+IMPORTANT! Please check that the future date provided matches for each metadata field, so that the embargo expiration date is consistent.
+
+**Dataset-Availability Enhancement in HDA**
+
+HDA will be enhanced to include the following functionality around dataset availability:
+
+* Datacite Date values will be visible in HDA view, along with their respective type.
+
+* Message displayed to user where request is made for dataset currently under embargo. User will have option to proceed with request, or save.  
+
+* Message displayed to user where request is made for dataset no longer available (available to date has passed).  User will not have the option to proceed with request.  User is encouraged to see DOI landing page for more information.  
 
 DOI state and workflow
 ~~~~~~~~~~~~~~~~~~~~~~
