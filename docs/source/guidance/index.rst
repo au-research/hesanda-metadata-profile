@@ -26,15 +26,15 @@ Guidance is provided in DataCite’s Metadata Schema 4.4 on how to include embar
 
 1. In `DataCite (8.) Date <https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/date/#date>`_ , please include both:
 
-(a.) The value for “Available” for the associated field DataCite (8.a) dateType.
+  (a.) The value for “Available” for the associated field DataCite (8.a) dateType.
 
-(b.) The dates the dataset will be available from, and optionally to.
+  (b.) The dates the dataset will be available from, and optionally to.
 
-(i.) Accepted date formats are “(YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format as per DataCite guidelines”). 
+      (i.) Accepted date formats are “(YYYY, YYYY-MM-DD, YYYYMM-DDThh:mm:ssTZD or any other format as per DataCite guidelines”). 
 
-(ii.) Use a single date to indicate the date from when a dataset is available. 
+      (ii.) Use a single date to indicate the date from when a dataset is available. 
 
-(iii.) If availability is expected to expire, use two dates for availability - the first to indicate the date from when a dataset is available and then a second date to indicate to (until) when the dataset is available.  “Use RKMS-ISO8601 standard for depicting date ranges.”  
+      (iii.) If availability is expected to expire, use two dates for availability - the first to indicate the date from when a dataset is available and then a second date to indicate to (until) when the dataset is available.  “Use RKMS-ISO8601 standard for depicting date ranges.”  
 
 
 1.a. Additional advice on DataCite (8.) Date:
@@ -48,9 +48,9 @@ Guidance is provided in DataCite’s Metadata Schema 4.4 on how to include embar
 
 * In the ANZCTR Data Sharing Statement, include the date that the dataset will be available for sharing as part of your response to the questions “When will data be available (start and end dates)?”. An approximate date (e.g. July 2025) is acceptable.
 
-Note: The ARDC acknowledges that DataCite 5 Publication Year is advised to be used to indicate an embargo date in DataCite Schema 4.4. Please be aware that the dataset-availability enhancements to HDA will be is driven by the DataCite 8 Date = dateType “Available” only - not Publication Year. Therefore, this field must be included in order for the enhanced functionality to occur.
+**Note:** The ARDC acknowledges that DataCite 5 Publication Year is advised to be used to indicate an embargo date in DataCite Schema 4.4. Please be aware that the dataset-availability enhancements to HDA will be is driven by the DataCite 8 Date = dateType “Available” only - not Publication Year. Therefore, this field must be included in order for the enhanced functionality to occur.
 
-IMPORTANT! Please check that the future date provided matches for each metadata field, so that the embargo expiration date is consistent.
+**IMPORTANT!** Please check that the future date provided matches for each metadata field, so that the embargo expiration date is consistent.
 
 **Dataset-Availability Enhancement in HDA**
 
