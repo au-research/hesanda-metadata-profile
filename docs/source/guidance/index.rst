@@ -42,7 +42,7 @@ Guidance is provided in DataCite’s Metadata Schema 4.4 on how to include embar
 * We encourage providing as specific a date as possible (i.e. to the day).  Where day is not provided, HDA will presume the first day of the month for from date and - where a range is provided - the last day of the month for to date.  Where month is not provided, HDA will presume the first month of the year for from date and - where a range is provided - the last month of the year for to date.  
 * You are encouraged to follow all DataCite Metadata Schema advice relevant to embargo datasets.  For example, the use of Date/s of type “Submitted” and or “Accepted”, where relevant.  HDA will display these dates, but no behaviour beyond display will be driven by any metadata other than Date of type “Available”. 
 
-2. In `DataCite 16 Rights <https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/rights/>`_ , provide a free-text explanation as to why the dataset is under embargo, whether pre-embargo sharing might be considered, and under what circumstances. Please see the table below for guidance.
+2. In `DataCite 16 Rights <https://datacite-metadata-schema.readthedocs.io/en/4.6/properties/rights/>`_ , provide a free-text explanation as to why the dataset is under embargo, whether pre-embargo sharing might be considered, and under what circumstances.
 
 **Strongly recommended**
 
